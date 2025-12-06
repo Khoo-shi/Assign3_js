@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #fafafa;
+}
+
+h1 {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+#petImage {
+    width: 350px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#petInfo {
+    font-size: 18px;
+}
+
+.hidden {
+    display: none;
+}
+
+#favorites img {
+    width: 100px;
+    border-radius: 8px;
+    margin: 5px;
+}
