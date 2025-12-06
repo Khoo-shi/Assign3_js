@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pet Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🐾 Pet Explorer</h1>
+
+<div class="controls">
+    <button id="dogBtn">Load Dog</button>
+    <button id="catBtn">Load Cat</button>
+</div>
+
+<div id="loading" class="hidden">Loading...</div>
+
+<div id="petContainer">
+    <img id="petImage" src="" alt="">
+    <div id="petInfo"></div>
+    <button id="favBtn">❤️ Add to Favorites</button>
+</div>
+
+<h2>Favourites</h2>
+<div id="favorites"></div>
+
+<!-- Documentation links -->
+<footer>
+    API Docs:
+    <a href="https://docs.thedogapi.com/">The Dog API</a>,
+    <a href="https://docs.thecatapi.com/">The Cat API</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
